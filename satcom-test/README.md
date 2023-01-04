@@ -13,6 +13,7 @@ The list is a mix of Product and Customers. There is no need to sort the list or
 ### Feature 2 : Display the component of the selected element of the list in the viewer component
 When you click on an element, we need to load in the `ViewerComponent` the corresponding component with the correct metadata.
 This component has a method allowing you to add dynamically the component linked to the object selected to the view.
+The app component should not contains any logic.
 
 ### Feature 3 : Filters element of the list by the search input
 When, the user type something in the search input, we want to filter the element of the list based on this search. 
